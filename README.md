@@ -1,30 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Lab: Tying it all Together
 
-## Getting Started
+[click here to see the backend repo](https://github.com/PengChen11/news-project-back-end)
 
-First, run the development server:
+[Click here to see the deployed site]()
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+It’s time to stitch the front and the back ends. In fact we’ll break the back end in two and stitch that together as well.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Feature Tasks and Requirements
 
-## Learn More
+- Deploy API to Heroku in a Docker container
+  - API resource can be simple
+- Deploy NextJS Front end to Vercel
+- Deploy PostgreSQL database to ElephantSQL
+Get them all to work together as a CRUD app
 
-To learn more about Next.js, take a look at the following resources:
+## Implementation Notes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Set up a free account with Vercel
+-Set up a free account with ElephantSQL
+- Make sure Heroku is in working order.
+  - Install Heroku CLI
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## User Acceptance Tests
 
-## Deploy on Vercel
+Single `(manual)` test for today. It should work!
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Configuration
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+NOTE: Replace snacks with your own resource name.
+
+Create snacks-next repo on Github
+Create snacks-api repo on Github
+Submission
+URL to front end web app hosted on Vercel.
