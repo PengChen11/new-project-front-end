@@ -5,7 +5,7 @@ class Previous extends React.Component{
 
         return (
             <li key={[news.id]} className='p-2'>
-                <a href={news.source}>#{news.title}</a>
+                <a href={news.source}>{news.title}</a>
 
             </li>
         )
@@ -22,7 +22,7 @@ class Previous extends React.Component{
                 <h3 className="mx-auto col-auto">Other News</h3>
             </div> */}
             <div className="row">
-                <ul className="mx-auto col-auto">
+                <ul className="mx-auto col-auto list-unstyled">
                     {lists.map(news => this.listItem(news))}
                 </ul>
             </div>

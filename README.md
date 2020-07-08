@@ -2,7 +2,7 @@
 
 [click here to see the backend repo](https://github.com/PengChen11/news-project-back-end)
 
-[Click here to see the deployed site]()
+[Click here to see the deployed site](https://chen-news.vercel.app)
 
 ## Overview
 
